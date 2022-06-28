@@ -1,11 +1,75 @@
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
 }
 
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: Normal;
-    font-size: 50px;
+/* HEADER STYLING */
+
+header h1{
     color: white;
+    font-weight: normal;
+    font-size: 50px;
     text-align: center;
 }
+
+header p {
+    text-align: center;
+}
+
+/* VIDEO STYLING */
+
+.video--centering {
+    text-align: center;
+}
+
+/* TITLES AND SUBTITLES */
+
+.secondTitle--styling {
+    text-align: center;
+    font-weight: 300px;
+    font-size: 42px;
+    color: white;
+}
+
+.subtitle--styling {
+    font-size: 21px;
+    color: gray;
+    text-align: center;
+}
+
+.comingSoonTitle--styling {
+    text-align: center;
+    color: white;
+}
+
+/* PICTURES STYLING */
+
+.campPic--centering {
+    text-align: center;
+}
+
+.phonePic--centering {
+    text-align: center;
+}
+
+/* LINKS - ANCHORS STYLING */
+
+header a {
+    color: aquamarine;
+    font-size: 16px;   
+}
+
+.linkDonwload--coloring {
+    color: aquamarine;
+}
+
+.linkDownload--styling {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* COPYRIGHT STYLING */
+.footer--styling {
+    color: gray;
+    text-align: right;
+} 
